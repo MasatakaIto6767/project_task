@@ -2,7 +2,6 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
-import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -54,19 +53,25 @@ public class Replace {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        //defListを１行ずつ取出す
+        //defListを１行ずつ取り出す
         for (int i = 0; i < defList.size() - 1; i++) {
             String str = defList.get(i);
+            //「：」の文字より前をkeyと後をvalueに設定
             int index = str.indexOf(":");
             String key = str.substring(0, index);
             String value = str.substring(index + 1);
-            String placefolder = "<" + key + ">";
+            //placeholderの作成
+            String placeholder = "<" + key + ">";
+            //templateListを１行ずつ取り出す
             for (int k = 0; k < templateList.size(); k++) {
                 String str1 = templateList.get(k);
-                String template = str1.replace(placefolder, value);
-                templateList.set(k,template);
+                //取り出した１行を置換
+                String replacedTemplate = str1.replace(placeholder, value);
+                //templateListに置換済みのものを上書き
+                templateList.set(k,replacedTemplate);
             }
         }
+        //上書きしたtemplateListを１行ずつ取り出して標準出力
         for(int j = 0; j < templateList.size(); j++) {
             System.out.println(templateList.get(j));
         }
