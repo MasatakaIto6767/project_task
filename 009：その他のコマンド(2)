@@ -1,0 +1,8 @@
+* 問題
+    * java.util.Propertiesのload(InputStream)メソッドを用いて読み込むファイルに指定できるファイルを作成。
+    * 漢字かな混じりのプロパティファイルをエンコードする方法。
+    * プロパティファイルの文字コードはUTF-8。
+* 解答
+    * $ native2ascii -encoding UTF-8 input.properties output.properties
+* 補足
+    * native2asciiコマンドを使用して、プロパティファイルをASCIIに変換
