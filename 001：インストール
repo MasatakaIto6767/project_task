@@ -1,5 +1,14 @@
+* 内容
+    * ダウンロード・インストール
+    * Task01.javaファイル作成
+    * javacコマンドでTask01をコンパイル
+    * javaコマンドで実行
+* Task01.javaファイル作成
 public class Task01 {
     public static void main(String[] args) {
         System.out.println("HelloWorld");
     }
 }
+*　コマンド
+    ＊ javac Task01.java
+    ＊ java Task01
