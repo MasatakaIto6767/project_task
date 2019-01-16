@@ -5,3 +5,4 @@
     * $ java -cp ~/java/classes;~/java/lib/* Task07
 * 補足
     * Task07は/java/classes配下
+    * -cp -> クラスパス 
