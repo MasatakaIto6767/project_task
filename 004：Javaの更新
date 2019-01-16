@@ -1,8 +1,20 @@
-* 内容
+* 問題
     * バージョンの確認
     * 差異がある場合は最新のJDKをダウンロード・インストール
     * 環境変数が異なる場合は設定
-* コマンド
-    * java -version
-    * export PATH = /xxx/yyy/zzz:$PATH
-    
+    * 変更後バージョンの確認
+
+* 解答
+    * バージョンの確認
+        * java -version
+    * 差異がある場合は最新のJDKをダウンロード・インストール
+        * 省略
+    * 環境変数が異なる場合は設定
+        * export PATH = /xxx/yyy/zzz:$PATH
+    * 変更後バージョンの確認
+        * java -version
+
+* 補足
+    * 環境変数の参照（コマンド）
+        * env
+        * echo $PATH
