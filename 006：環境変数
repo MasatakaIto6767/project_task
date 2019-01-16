@@ -1,7 +1,7 @@
 * 問題
     * 実行時のタイムゾーンを東京にて明示
 * 解答
-    * $ java -Duser.timezone=JST Task01
+    * $ java -Duser.timezone=JST Answer006
 * 補足
     * -D -> コマンドライン引数に追加
     * user.timezone -> Javaシステムプロパティ
