@@ -1,2 +1,10 @@
-*　javacコマンドでJavaのバージョン出力
-    ＊　$ javac -J-version
+* 内容 
+    *　javacコマンドでJavaのバージョン出力
+* コマンド
+    * $ javac -J-version
+    * $ java -version
+* 捕捉
+    * javacコマンド
+        * ファイル名を指定してソースファイルをコンパイル
+    * javaコマンド
+        * どのクラスのmainメソッドを起動するか指定して実行
