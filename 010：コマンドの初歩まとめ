@@ -1,0 +1,12 @@
+* 問題
+    * JDK付属のコマンドのみを使用して、作成したクラスをコンパイル・ビルドする。
+    * java -jarコマンドで実行できるjarファイルを得るbashスクリプトを作成。
+    * Maven等使用しないこと
+* 解答
+    * JARファイル作成時に、eオプションで、エントリ・ポイントを指定
+        * $ jar cvfe Answer.jar Answer010 Answer010.class
+    * パッケージがある場合
+        * $ jar cvfe Answer.jar package.Answer010 package\Answer010.class
+    * マニフェストファイルが作成され、MANIFEST.MFに 「Main-Class: Answer010」が記載されていればOK
+    * JARファイルの実行
+        * $ java -jar Answer.jar
