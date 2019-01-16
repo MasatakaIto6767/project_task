@@ -9,13 +9,13 @@
         * 省略
     * Task01.javaファイル作成
     // --------------------------------------------------
-    public class Task01 {
+    public class Answer001 {
         public static void main(String[] args) {
             System.out.println("HelloWorld");
         }
     }
     // --------------------------------------------------
-    * javacコマンドでTask01をコンパイル
-        * $ javac Task01.java
+    * javacコマンドでAnswer001をコンパイル
+        * $ javac Answer001.java
     * javaコマンドで実行
-        * $ java Task01
+        * $ java Answer001
