@@ -1,5 +1,4 @@
-* 内容 
+* 問題
     *　javacコマンドでJavaのバージョン出力
-* コマンド
+* 解答
     * $ javac -J-version
-    * $ java -version
