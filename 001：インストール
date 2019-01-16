@@ -1,14 +1,21 @@
-* 内容
-    * ダウンロード・インストール
+* 問題
+    * 最新のJDKをダウンロード・インストール、環境変数の設定
     * Task01.javaファイル作成
     * javacコマンドでTask01をコンパイル
     * javaコマンドで実行
-* Task01.javaファイル作成
-public class Task01 {
-    public static void main(String[] args) {
-        System.out.println("HelloWorld");
+
+* 解答
+    * 最新のJDKをダウンロード・インストール、環境変数の設定
+        * 省略
+    * Task01.javaファイル作成
+    // --------------------------------------------------
+    public class Task01 {
+        public static void main(String[] args) {
+            System.out.println("HelloWorld");
+        }
     }
-}
-*　コマンド
-    ＊ javac Task01.java
-    ＊ java Task01
+    // --------------------------------------------------
+    * javacコマンドでTask01をコンパイル
+        * javac Task01.java
+    * javaコマンドで実行
+        * java Task01
