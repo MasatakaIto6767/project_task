@@ -4,5 +4,5 @@
 * 解答
     * $ java -cp ~/java/classes;~/java/lib/* Answer007
 * 補足
-    * Task07は/java/classes配下
+    * Answer007は/java/classes配下
     * -cp -> クラスパス 
