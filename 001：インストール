@@ -16,6 +16,6 @@
     }
     // --------------------------------------------------
     * javacコマンドでTask01をコンパイル
-        * javac Task01.java
+        * $ javac Task01.java
     * javaコマンドで実行
-        * java Task01
+        * $ java Task01
