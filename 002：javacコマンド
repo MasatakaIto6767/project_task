@@ -1,1 +1,2 @@
-$ javac -J-version
+*　javacコマンドでJavaのバージョン出力
+    ＊　$ javac -J-version
