@@ -1,0 +1,28 @@
+* 問題
+    * 実行結果の出力
+//----------------------------------------
+public class Answer013 {
+    private static Object n;
+    private static final Object HOGE = n.toString();
+
+    public static void main(String[] arguments) {
+        System.out.println("HOGE is " + HOGE);
+    }
+}
+//----------------------------------------
+
+* 解答
+    * ExceptionInInitializerErrorの発生
+//----------------------------------------
+public class Answer013 {
+    //private static Object n;//修正前
+    private static Object n = 100;//修正後
+    private static final Object HOGE = n.toString();
+
+    public static void main(String[] arguments) {
+        System.out.println("HOGE is " + HOGE);
+    }
+}
+//----------------------------------------
+* 修正後の出力
+    * HOGE is 100
