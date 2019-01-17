@@ -1,9 +1,11 @@
 * 問題
-    * proxy.example.com:80を使用して指定
     * #001のプログラムを実行するjavaコマンドを実行
-    * 注）*.noproxy.example.comへのアクセスはプロキシサーバを利用せず直接接続
+    * [条件1] Javaプログラムのプロキシサーバはproxy.example.com:80を指定
+    * [条件2] *.noproxy.example.comへのアクセスはプロキシサーバを利用せず直接接続
+    
 * 解答
     * $ java -Dhttp.proxyHost=proxy.example.com -Dhttp.proxyPort=80 -Dhttp.http.nonProxyHosts=*.noproxy.example.com Answer001
+    
 * 補足
     * java -Dhttp.proxyHost -> Javaのプロキシサーバのホスト名を指定
     * java -Dhttp.proxyPort -> Javaのポート番号を指定
