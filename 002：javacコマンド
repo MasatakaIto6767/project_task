@@ -1,5 +1,5 @@
 * 問題
-    *　javacコマンドでJavaのバージョン出力
+    *　javacコマンドでJavaのバージョンを出力せよ
     
 * 解答
     * $ javac -J-version
