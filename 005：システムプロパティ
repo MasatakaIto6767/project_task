@@ -1,7 +1,7 @@
 * 問題
     * proxy.example.com:80を使用して指定
     * #001のプログラムを実行するjavaコマンドを実行
-    * *.noproxy.example.comへのアクセスはプロキシサーバを利用せず直接接続
+    * 注）*.noproxy.example.comへのアクセスはプロキシサーバを利用せず直接接続
 * 解答
     * $ java -Dhttp.proxyHost=proxy.example.com -Dhttp.proxyPort=80 -Dhttp.http.nonProxyHosts=*.noproxy.example.com Answer001
 * 補足
