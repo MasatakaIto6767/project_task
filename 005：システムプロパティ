@@ -1,7 +1,7 @@
 * 問題
-    * #001のプログラムを実行するjavaコマンドを実行
-    * [条件1] Javaプログラムのプロキシサーバはproxy.example.com:80を指定
-    * [条件2] *.noproxy.example.comへのアクセスはプロキシサーバを利用せず直接接続
+    * #001のプログラムを実行するjavaコマンドを実行せよ
+    * [条件1] Javaプログラムのプロキシサーバはproxy.example.com:80を指定すること
+    * [条件2] *.noproxy.example.comへのアクセスはプロキシサーバを利用せず直接接続すること
     
 * 解答
     * $ java -Dhttp.proxyHost=proxy.example.com -Dhttp.proxyPort=80 -Dhttp.http.nonProxyHosts=*.noproxy.example.com Answer001
