@@ -3,4 +3,6 @@
 * 解答
     * $ javac -J-version
 * 補足
-    * -versionオプション -> Javaのバージョンを表示
+    * $ javac -version -> javacコマンドのバージョンを表示
+    * $ javac -J-version -> Javaのバージョンを表示
+    * $ java -version -> Javaのバージョンを表示
