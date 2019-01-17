@@ -1,7 +1,9 @@
 * 問題
     *　javacコマンドでJavaのバージョン出力
+    
 * 解答
     * $ javac -J-version
+    
 * 補足
     * $ javac -version -> javacコマンドのバージョンを表示
     * $ javac -J-version -> Javaのバージョンを表示
