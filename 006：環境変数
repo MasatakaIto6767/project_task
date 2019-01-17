@@ -3,5 +3,5 @@
 * 解答
     * $ java -Duser.timezone=JST Answer006
 * 補足
-    * java -Duser.timezone -> Javaのシステムプロパティの設定(同じ時間を取り扱う地域のクラス)
+    * java -Duser.timezone -> Javaのシステムプロパティ(同じ時間を取り扱う地域のクラス)を設定
     * JST -> Japan Standard Time（Asia/Tokyo)
