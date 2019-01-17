@@ -3,6 +3,6 @@
 * 解答
     * $ java -Duser.timezone=JST Answer006
 * 補足
-    * -D -> コマンドライン引数に追加
-    * user.timezone -> Javaシステムプロパティ
-    * JST -> Asia/Tokyo
+    * -Dオプション -> システムプロパティの設定
+    * user.timezone -> Javaシステムプロパティ(同じ時間を取り扱う地域のクラス)
+    * JST -> Japan Standard Time（Asia/Tokyo)
