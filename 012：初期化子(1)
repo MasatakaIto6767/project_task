@@ -16,4 +16,4 @@ public class Answer012 {
     * false
 
 * 補足
-   * booleanの初期値を出力
+   * booleanの初期値falseを出力
