@@ -1,0 +1,21 @@
+* 問題
+    * 実行結果を出力
+//----------------------------------------
+public class Answer014 {
+    private String name = createName();
+
+    private String createName() {
+        return "created_name=" + name;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(new Answer014().name);
+    }
+}
+//----------------------------------------
+
+
+
+* 解答
+    * created_name=null
+        * 参照型の初期値はnull
