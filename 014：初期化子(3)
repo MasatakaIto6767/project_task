@@ -20,4 +20,4 @@ public class Answer014 {
     * created_name=null
 
 * 補足
-    * 参照型の初期値はnull
+    * 参照型の初期値nullを出力
