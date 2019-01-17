@@ -3,18 +3,15 @@
 //----------------------------------------
 public class Answer012 {
     private static boolean flag;
-    public static void main(String[]args){
+
+    public static void main(String[] args) {
         System.out.println(flag);
     }
 }
 //----------------------------------------
 
+
+
 * 解答
     * false
-    
-* 補足
-    * 説明
-        * booleanの初期値はfalse
-    * 参考
-        * Stringの初期値はnull
-        * intの初期値は0
+        * booleanの初期値を出力
