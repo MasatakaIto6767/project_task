@@ -1,7 +1,5 @@
-https://github.com/suwa-sh/java-100practices/blob/master/contents/013/README.md
-
-* 問題
-    * 実行結果の出力
+# 問題
+* 実行結果の出力
 //----------------------------------------
 public class Answer013 {
     private static Object n;
@@ -15,8 +13,8 @@ public class Answer013 {
 
 
 
-* 解答
-    * ExceptionInInitializerErrorの発生
+# 解答
+* ExceptionInInitializerErrorの発生
 //----------------------------------------
 public class Answer013 {
     //private static Object n;//修正前
