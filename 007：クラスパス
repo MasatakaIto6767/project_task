@@ -1,6 +1,6 @@
 * 問題
-    * classファイルが~/java/classesディレクトリにある。
-    * 動作させるのに必要なライブラリ(jarファイル)が~/java/libディレクトリに複数存在する場合のJavaプログラムの実行コマンド。
+    * jarファイルが~/java/libディレクトリに複数存在する場合のJavaプログラムを実行
+    * classファイルは~/java/classesディレクトリ内に存在
 * 解答
     * $ java -cp ~/java/classes:~/java/lib/* Answer007
 * 補足
