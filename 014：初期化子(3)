@@ -18,4 +18,6 @@ public class Answer014 {
 
 * 解答
     * created_name=null
-        * 参照型の初期値はnull
+
+* 補足
+    * 参照型の初期値はnull
