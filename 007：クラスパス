@@ -1,6 +1,6 @@
 * 問題
-    * jarファイルが~/java/libディレクトリに複数存在する場合のJavaプログラムを実行
-    * [条件] classファイルは~/java/classesディレクトリ内に存在
+    * jarファイルが~/java/libディレクトリに複数存在する場合のJavaプログラムを実行せよ
+    * [条件] classファイルは~/java/classesディレクトリ内に存在すること
     
 * 解答
     * $ java -cp ~/java/classes:~/java/lib/* Answer007
