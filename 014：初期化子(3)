@@ -1,5 +1,5 @@
 * 問題
-    * 実行結果を出力
+    * 以下コードの実行結果を述べよ
 //----------------------------------------
 public class Answer014 {
     private String name = createName();
