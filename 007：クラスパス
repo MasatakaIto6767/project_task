@@ -4,5 +4,5 @@
 * 解答
     * $ java -cp ~/java/classes:~/java/lib/* Answer007
 * 補足
-    * -cpオプション（-classpathオプション) -> クラスファイルを起動
+    * java -cp -> javaのクラスファイルを起動
     * PATHが複数存在する場合　-> コロン（：）で区切る
