@@ -5,4 +5,11 @@
 * 解答
     * $ native2ascii -encoding UTF-8 input.properties output.properties
 * 補足
-    * native2asciiコマンドを使用して、プロパティファイルをASCIIに変換
+    * 説明
+        * native2asciiコマンドはプロパティファイルをASCIIに変換する
+    * 形式
+        * $ native2ascii[options][inputfile[outputfile]]
+    * 参考
+        * native2ascii
+            * ネイティブコードからUnicodeへの変換
+            * javaファイルをASCII文字セットに含まれる文字のみに変換するツール -> 文字化けしてうまくファイルが開けない状況を回避
