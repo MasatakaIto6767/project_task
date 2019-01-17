@@ -1,3 +1,5 @@
+https://github.com/suwa-sh/java-100practices/blob/master/contents/013/README.md
+
 * 問題
     * 実行結果の出力
 //----------------------------------------
@@ -10,6 +12,8 @@ public class Answer013 {
     }
 }
 //----------------------------------------
+
+
 
 * 解答
     * ExceptionInInitializerErrorの発生
