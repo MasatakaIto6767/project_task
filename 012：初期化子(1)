@@ -1,5 +1,5 @@
 * 問題
-    * 以下コードの出力結果を述べよ
+    * 以下コードの実行結果を述べよ
 //----------------------------------------
 public class Answer012 {
     private static boolean flag;
