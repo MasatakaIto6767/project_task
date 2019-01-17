@@ -1,5 +1,5 @@
 * 問題
-    * 実行結果
+    * 実行結果を出力
 //----------------------------------------
 public class Answer012 {
     private static boolean flag;
@@ -8,11 +8,13 @@ public class Answer012 {
     }
 }
 //----------------------------------------
+
 * 解答
     * false
+    
 * 補足
     * 説明
         * booleanの初期値はfalse
     * 参考
         * Stringの初期値はnull
-        * intの初期値は０
+        * intの初期値は0
