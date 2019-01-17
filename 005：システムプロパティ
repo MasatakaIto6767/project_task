@@ -5,6 +5,8 @@
 * 解答
     * $ java -Dhttp.proxyHost=proxy.example.com -Dhttp.proxyPort=80 -Dhttp.http.nonProxyHosts=*.noproxy.example.com Answer001
 * 補足
-    * http.proxyHostオプションで、プロキシサーバのホスト名を指定
-    * http.proxyPortオプションで、ポート番号を指定
-    * http.nonProxyHostsオプションで、プロキシを省略して直接接続するホストを指定
+    * -Dオプション -> システムプロパティの設定
+        * システムプロパティ -> システムが持つ属性
+    * http.proxyHostオプション -> プロキシサーバのホスト名を指定
+    * http.proxyPortオプション -> ポート番号を指定
+    * http.nonProxyHostsオプション -> プロキシを省略して直接接続するホストを指定
