@@ -1,13 +1,13 @@
 * 問題
-    * 最新のJDKをダウンロード・インストール、環境変数の設定
-    * Task01.javaファイル作成
-    * javacコマンドでTask01をコンパイル
-    * javaコマンドで実行
+    * 最新のJDKをダウンロード・インストール、環境変数の設定をせよ
+    * Task01.javaファイル作成せよ
+    * javacコマンドでAnswer001をコンパイルせよ
+    * javaコマンドで実行せよ
 
 * 解答
     * 最新のJDKをダウンロード・インストール、環境変数の設定
         * 省略
-    * Task01.javaファイル作成
+    * Answer001.javaファイル作成
     // --------------------------------------------------
     public class Answer001 {
         public static void main(String[] args) {
