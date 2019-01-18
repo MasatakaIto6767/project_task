@@ -1,0 +1,26 @@
+* 問題
+    * 以下の2つの同一名称のメソッドで渡された引数を文字列に変換して返すように実装せよ
+        * [条件] int型1つを引数に取るメソッドとfloat型1つを引数に取るメソッド
+
+
+
+* 解答
+//----------------------------------------
+public class Answer023 {
+    public static void main(String[] arguments) {
+        System.out.println("int to String : " + convertToString(123));
+        System.out.println("float to String : " + convertToString(1.23F));
+    }
+
+    private static String convertToString(int intNum) {
+        return String.valueOf(intNum);
+    }
+
+    private static String convertToString(float floatNum) {
+        return String.valueOf(floatNum);
+    }
+}
+//----------------------------------------
+* 実行結果
+int to String : 123
+float to String : 1.23
