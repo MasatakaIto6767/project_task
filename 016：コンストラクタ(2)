@@ -1,0 +1,25 @@
+* 問題
+    * 他クラスからインスタンスを作成できないクラスを実装せよ。
+
+
+
+* 解答
+//----------------------------------------
+public class Answer016 {
+    public static void main(String argments[]) {
+        System.out.println(new PrivateConstructorClass().name);
+    }
+}
+//----------------------------------------
+//----------------------------------------
+public class PrivateConstructorClass {
+    String name;
+
+    //private PrivateConstructorClass() {//アクセス修飾子privateの場合 -> 自クラスからのアクセスのみコンストラクタを作成。他クラスからのインスタンス生成を防ぐ（コンパイルエラー）
+    public PrivateConstructorClass() {//アクセス修飾子publicの場合 -> 他クラスからインスタンス生成できてしまう
+        this.name = "hoge";
+    }
+}
+//----------------------------------------
+* アクセス修飾子publicの場合の出力
+hoge
