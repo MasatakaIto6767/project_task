@@ -1,0 +1,56 @@
+* 問題
+    * 配列MEDALSを以下の条件のもと全要素を順番に出力するためのプログラムを実装せよ
+        * [条件1] ジェネリクスを用いた場合のリストに要素を入れること
+        * [条件2] ジェネリクスを用いない場合のリストに要素を入れること
+//----------------------------------------
+private static final String[] MEDALS = new String[]{
+    "GOLD", "SILVER", "BRONZE"
+};
+//----------------------------------------
+
+
+
+* 解答
+//----------------------------------------
+import java.util.ArrayList;
+import java.util.List;
+
+public class Answer020 {
+    private static final String[] MEDALS = new String[]{
+            "GOLD", "SILVER", "BRONZE"
+    };
+
+    public static void main(String arguments[]) {
+        createNonGenericsList();
+        createGenericsList();
+    }
+
+    private static void createNonGenericsList() {
+        List nonGenericsList = new ArrayList();
+        for (String medal : MEDALS) {
+            nonGenericsList.add(medal);
+        }
+        for (int i = 0; i < nonGenericsList.size(); i++) {
+            String medal = (String) nonGenericsList.get(i);
+            System.out.println(medal);
+        }
+    }
+
+    private static void createGenericsList() {
+        List<String> genericsList = new ArrayList<String>();
+        for (String medal : MEDALS) {
+            genericsList.add(medal);
+        }
+        for (String item : genericsList) {
+            System.out.println(item);
+        }
+    }
+}
+//----------------------------------------
+* 実行結果
+GOLD
+SILVER
+BRONZE
+GOLD
+SILVER
+BRONZE
