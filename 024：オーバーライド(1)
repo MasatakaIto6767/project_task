@@ -1,0 +1,27 @@
+* 問題
+    * 次の2つのプログラムの実行結果を明示せよ
+//----------------------------------------
+public class Knock024A {
+    public static void main(String[] arguments) {
+        Knock024A ab = new Knock024B();
+        System.out.println(ab.getString());
+    }
+    
+    protected static String getString() {
+        return "Knock024A";
+    }
+}
+//----------------------------------------
+//----------------------------------------
+public class Knock024B extends Knock024A {
+    protected static String getString() {
+        return "Knock024B";
+    }
+}
+//----------------------------------------
+
+
+
+* 解答
+    * 実行結果
+Answer024A
