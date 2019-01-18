@@ -5,4 +5,8 @@
     * $ javap -v Answer008
     
 * 補足
-    * javap -v -> Javaのクラスファイルを人間が読み取れる形式に変換
+    * javapコマンド -> Javaのクラスファイルを人間が読み取れる形式に変換
+    * javap　　-v -> Javaクラスに関する詳細な情報を表示
+* 参考
+    * javap -verbose -> 表示内容がjavap　-vに同じ。メソッドのスタックサイズ、およびlocalsとargsの数を出力
+    * javap -version -> javapコマンドのバージョンを表示
