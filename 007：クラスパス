@@ -1,10 +1,11 @@
 * 問題
-    * jarファイルが~/java/libディレクトリに複数存在する場合のJavaプログラムを実行せよ
-    * [条件] classファイルは~/java/classesディレクトリ内に存在すること
+    * 以下の条件をもとにJavaプログラムを実行せよ
+        * [条件1] classファイルは~/java/classesディレクトリ内に存在
+        * [条件２] jarファイルが~/java/libディレクトリに複数存在
     
 * 解答
     * $ java -cp ~/java/classes:~/java/lib/* Answer007
     
 * 補足
     * java -cp -> javaのクラスファイルを起動
-    * PATHが複数存在する場合　-> コロン（：）で区切る
+    * コロン（：）　-> クラスごとに区切る
