@@ -8,24 +8,3 @@
         * 省略
     * 変更後Javaのバージョンを確認
         * $ java -version -> javaのバーションを表示
-
-* memo
-    * viewPoint
-        * ex)Java SE 1.8.0_191-b12
-            * Java
-            * SE -> standard edition
-            * 1 -> major ver.
-                * 従来機能の変更　（major）の場合にインクリメント
-            * 8 -> minor ver.
-                * 機能追加（minor）は許容
-                * 従来機能の変更　（major）を許容しない場合にインクリメント
-            * 0_191 -> bug fix(patch)
-                * bug修正（patch)は許容
-                * 機能追加（minor）を許容しない場合にインクリメント
-            * -b12 -> build
-                * buildした場合にインクリメント
-    * note
-        * latest ver.はいくつかなのか、current ver.はどこに位置するかを気にすること
-            * ビジネスでcurrent ver.がlatest ver.でない理由
-                * システムの依存性によるため
-                    * cf)semantic ver.（採番のルール）
