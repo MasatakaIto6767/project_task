@@ -9,4 +9,4 @@
 * 補足
     * java -Dhttp.proxyHost -> Javaのプロキシサーバのホスト名を指定
     * java -Dhttp.proxyPort -> Javaのポート番号を指定
-    * java -Dhttp.nonProxyHosts -> Javaのプロキシを省略して直接接続するhostsを指定
+    * java -Dhttp.nonProxyHosts -> Javaのプロキシを省略して直接接続するホストを指定
