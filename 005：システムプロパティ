@@ -4,7 +4,7 @@
     * [条件2] *.noproxy.example.comへのアクセスはプロキシサーバを利用せず直接接続すること
     
 * 解答
-    * $ java -Dhttp.proxyHost=proxy.example.com -Dhttp.proxyPort=80 -Dhttp.http.nonProxyHosts=*.noproxy.example.com Answer001
+    * $ java -Dhttp.proxyHost=proxy.example.com -Dhttp.proxyPort=80 -Dhttp.nonProxyHosts=*.noproxy.example.com Answer001
     
 * 補足
     * java -Dhttp.proxyHost -> Javaのプロキシサーバのホスト名を指定
