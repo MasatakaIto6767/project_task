@@ -7,12 +7,15 @@
 * 理由
     * 何故、ver.を最新版に更新しないのか
         * サポートしているシステムのver.に合わせるため
+    * 前程
+        * 現Javaのver.を確認済み
+            * $ java -version -> javaのver.を表示
 
 * 捕足
     * 最新版にアップデートする場合
-        * 現Javaのバージョンを確認
-            * $ java -version -> javaのバーションを表示
+        * 現Javaのver.を確認
+            * $ java -version -> javaのver.を表示
         * 差異がある場合は最新のJDKをダウンロード・インストール
             * 省略
-        * 変更後Javaのバージョンを確認
-            * $ java -version -> javaのバーションを表示
+        * 変更後Javaのver.を確認
+            * $ java -version -> javaのver.を表示
