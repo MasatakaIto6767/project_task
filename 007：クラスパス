@@ -7,4 +7,4 @@
     * $ java -cp ~/java/classes:~/java/lib/* Answer007
     
 * 補足
-    * java -cp -> javaのクラスファイルを起動
+    * java -cp -> javaの複数のクラスファイルを起動
