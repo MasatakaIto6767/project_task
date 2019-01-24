@@ -11,9 +11,3 @@
         * native2ascii -encoding UTF-8 -> ネイティブコードをUTF-8(ASCII)に変換
         * input.properties -> プロパティファイルを読み込む
         * output.properties -> プロパティファイルを出力
-    * 構文
-        * $ native2ascii[options][inputfile[outputfile]]
-    * 参考
-        * native2asciiコマンドとは
-            * ネイティブコードからUnicodeへ変換
-                * ファイルが文字化けして開かない状況を回避するため
