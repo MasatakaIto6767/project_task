@@ -3,7 +3,19 @@
     
 * 解答
     * $ java -Duser.timezone=JST Answer006
-    
+    * 
+//-----------------------------------------------
+import java.util.TimeZone;
+public class Answer006 {
+
+    public static void main(String[] arguments) {
+        System.out.println(TimeZone.getDefault().getID());
+    }
+}
+//-----------------------------------------------
+*　実行結果
+Asia/Tokyo
+
 * 補足
     * java -Duser.timezone -> Javaのシステムプロパティ(同じ時間を取り扱う地域のクラス)を設定
     * JST -> Japan Standard Time（Asia/Tokyo)
