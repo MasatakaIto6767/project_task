@@ -3,7 +3,6 @@
     
 * 解答
     * $ java -Duser.timezone=JST Answer006
-    * 
 //-----------------------------------------------
 import java.util.TimeZone;
 public class Answer006 {
@@ -17,5 +16,5 @@ public class Answer006 {
 Asia/Tokyo
 
 * 補足
-    * java -Duser.timezone -> Javaのシステムプロパティ(同じ時間を取り扱う地域のクラス)を設定
+    * java -Duser.timezone=JST -> Javaのシステムプロパティ(同じ時間を取り扱う地域のクラス)をJSTに設定
     * JST -> Japan Standard Time（Asia/Tokyo)
