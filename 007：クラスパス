@@ -4,7 +4,10 @@
         * [条件２] jarファイルが~/java/libディレクトリに複数存在
     
 * 解答
-    * $ java -cp ~/java/classes:~/java/lib/* Answer007
+    * Windowsの場合
+        * $ java -cp "%HOME%\java\classes;%HOME%\java\lib\*" 実行クラス名
+    * Linux および OS X の場合
+        * $ java -cp ~/java/classes:~/java/lib/* 実行クラス名
     
 * 補足
     * java -cp -> javaの複数のクラスファイルを起動
